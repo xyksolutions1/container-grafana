@@ -1,3 +1,9 @@
+## 1.1.2 2026-03-26 <code at nfastack dot com>
+
+   ### Added
+      - Grafana 12.4.2
+
+
 ## 1.1.1 2026-03-09 <code at nfastack dot com>
 
    ### Added
