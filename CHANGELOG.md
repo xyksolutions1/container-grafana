@@ -1,3 +1,9 @@
+## 1.1.7 2026-04-20 <code at nfastack dot com>
+
+   ### Changed
+      - Cleanup nginx configuration
+
+
 ## 1.1.6 2026-04-19 <code at nfastack dot com>
 
    ### Added
