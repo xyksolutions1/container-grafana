@@ -5,16 +5,16 @@
 ARG \
     BASE_IMAGE
 
-FROM ${BASE_IMAGE}
+FROM docker.io/xyksolutions1/container-base:latest
 
 LABEL \
         org.opencontainers.image.title="Grafana" \
         org.opencontainers.image.description="Analytics and monitoring platform" \
-        org.opencontainers.image.url="https://hub.docker.com/r/nfrastack/grafana" \
-        org.opencontainers.image.documentation="https://github.com/nfrastack/container-grafana/blob/main/README.md" \
-        org.opencontainers.image.source="https://github.com/nfrastack/container-grafana.git" \
-        org.opencontainers.image.authors="Nfrastack <code@nfrastack.com>" \
-        org.opencontainers.image.vendor="Nfrastack <https://www.nfrastack.com>" \
+        org.opencontainers.image.url="https://hub.docker.com/r/xyksolutions1/grafana" \
+        org.opencontainers.image.documentation="https://github.com/xyksolutions1/container-grafana/blob/main/README.md" \
+        org.opencontainers.image.source="https://github.com/xyksolutions1/container-grafana.git" \
+        org.opencontainers.image.authors="xyksolutions1" \
+        org.opencontainers.image.vendor="xyksolutions1" \
         org.opencontainers.image.licenses="MIT"
 
 ARG \
@@ -26,8 +26,8 @@ COPY LICENSE /usr/src/container/LICENSE
 COPY README.md /usr/src/container/README.md
 
 ENV \
-    IMAGE_NAME="nfrastack/grafana" \
-    IMAGE_REPO_URL="https://github.com/nfrastack/container-grafana/"
+    IMAGE_NAME="xyksolutions1/grafana" \
+    IMAGE_REPO_URL="https://github.com/xyksolutions1/container-grafana/"
 
 EXPOSE 3000
 
